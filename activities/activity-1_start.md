@@ -34,9 +34,9 @@ For each curve, agree as a group on the most likely cause before moving on.
 
 | Curve | What you observe | Most likely cause |
 |---|---|---|
-| A | | |
-| B | | |
-| C | | |
+| A |Train and validation loss both fall steadily and remain fairly close | healthy rate of learning/training |
+| B |Both losses jump up and down heavily and eventually increase | overshooting updates |
+| C |Both losses. Slow decreases |Low learning rate - steps too smal |
 
 💡 **Tip:** Focus on what the *validation* line is doing relative to the *training* line — not just whether training loss is going down.
 
